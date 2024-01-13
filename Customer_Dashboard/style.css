@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding:  0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "poppins" , sans-serif;
+}
+
+*body{
+    display: flex;
+    height: 100vh;
+}
+.title h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    size: 20px;
+}
+.sidemenu{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 240px;
+    height: 100vh;
+    padding: 0 1.7rem;
+    color: whitesmoke;
+    overflow: hidden;
+    background: #0199fe;
+    transition: all 0.5s linear;
+}
+.sidemenu :hover{
+
+    transition: 0.5s;
+}
+.brandname{
+    height: 80px;
+    padding: 16px;
+}
+.menu{
+    height: 88px;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+.menu li{
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all 0.5 ease-in-out;
+
+}
+.menu li:hover{
+    background: red;
+}
+.menu a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.menu a span{
+    overflow: hidden;
+}
+.menu a i{
+    font-size: 1.2rem;
+}
+.navbar{
+    position: absolute;
+    right: 0;
+    width: 80vw;
+    height: 100vh;
+    top: 0;
+}
+.header-section{
+    padding: 10px 2rem;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    right: -4.3rem;
+    width: 80vw;
+    height: 10vh;
+    background: rgb(255, 2, 2);
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.title{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    size: 20px;
+}
+.greeting span p{
+    color: white;
+    left: 3rem;
+    
+}
+.card-container{
+    position: absolute;
+    padding: 20px 5px ;
+    width: 80vw;
+    right: -4.3rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    /* flex-wrap: wrap; */
+    border-radius: 10px;
+    background:rgb(251, 232, 232);
+   
+}
+.ccontainer{
+    /* position: absolute; */
+    /* padding: 20px 5px ; */
+    width: 80vw;
+    /* right: -4.3rem; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content:space-between; */
+    /* flex-wrap: wrap; */
+    border-radius: 10px;
+    background:rgb(205, 185, 249);
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+
+}
+
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 250px;
+    border-radius: 10px;
+    height: 150px;
+    background: white;
+    margin: 20px 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.ccontainer .card-wrapper{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* gap: 1rem; */
+    width: 250px;
+    border-radius: 10px;
+    height: 150px;
+    background: rgb(208, 250, 243);
+    /* margin: 20px 10px; */
+    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+}
+.card-wrapper1{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* gap: 1rem; */
+    width: 250px;
+    border-radius: 10px;
+    height: 150px;
+    background: rgb(208, 250, 243);
+    /* margin: 20px 10px; */
+    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+}
+.card-wrapper2{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* gap: 1rem; */
+    width: 250px;
+    border-radius: 10px;
+    height: 150px;
+    background: rgb(205, 185, 249);
+    /* margin: 20px 10px; */
+    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+}
+.card-wrapper3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 250px;
+    border-radius: 10px;
+    height: 150px;
+    background: rgb(251, 212, 204);
+    margin: 20px 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.card-wrapper input{
+    box-sizing: border-box;
+    background: whitesmoke;
+    text-size-adjust: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.card-wrapper1 input{
+    box-sizing: border-box;
+    background: whitesmoke;
+    text-size-adjust: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.card-wrapper2 input{
+    box-sizing: border-box;
+    background: whitesmoke;
+    text-size-adjust: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.card-wrapper3 input{
+    box-sizing: border-box;
+    background: whitesmoke;
+    text-size-adjust: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.card-wrapper1 .btn{
+    background: red;
+    padding: 8px;
+    border-radius: 10px;
+ }
+ a{
+     text-decoration: none;
+     color: white;
+     size:14px;
+ }
+ .tcontainer{
+    margin-top: 50%;
+    background:white;
+    border-radius: 10px;
+    /* padding:  15px; */
+    width: 75vw;
+    /* padding-left: 14rem; */
+    /* right: -4.3rem; */
+    /* left: 22%; */
+    /* position: absolute; */
+    /* margin-bottom: 10%; */
+
+ }
+ .table-wrapper{
+    /* width: 100%; */
+    border-radius: 10px;
+    /* flex-wrap: wrap; */
+ }
+ .table{
+    /* width: 100%; */
+    border-collapse: collapse;
+    /* direction: right; */
+ }
+ th{
+    background: rgb(110, 196, 246);
+    padding:  1px 40px;
+    color: white;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    align-items: start;
+   
+ }
+ td{
+    padding: 10px;
+    text-align: left;
+    line-height: 1rem;
+    align-items: start;
+ }
+ .table .btn{
+    color: red;
+    font-weight: 500;
+
+ }
+ .ccontainer .card-wrapper2 .btn{
+    background: red;
+    border-radius: 10px;
+    padding: 15px;
+ }

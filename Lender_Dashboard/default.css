@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.settings {
+    /* max-width: 600px; */
+    width: 70vw;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 2%;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.theme-options,
+.font-options,
+.language-options,
+.notification-options,
+.privacy-options,
+.security-options,
+.email-options,
+.data-options {
+    margin-bottom: 20px;
+}
+
+.theme-options label,
+.font-options label,
+.language-options select,
+.notification-options label,
+.privacy-options label,
+.security-options a,
+.email-options label,
+.data-options a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.notification-options label,
+.privacy-options label,
+.security-options a,
+.email-options label,
+.data-options a {
+    margin-bottom: 5px;
+}
+
+.notification-options label input[type="checkbox"],
+.privacy-options label input[type="checkbox"],
+.email-options label input[type="checkbox"] {
+    margin-right: 5px;
+}

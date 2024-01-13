@@ -1,0 +1,29 @@
+.send-to-agent button{
+    margin-left: 20%;
+    height: 6vh;
+    width: 15vw;
+    background-color: #0199fe;
+    color: white;
+    cursor: pointer;
+}
+.totals{
+    display: flex;
+    margin-left: 20%;
+    margin-top: 3%;
+    margin-bottom: 3%
+}
+.totals input{
+    margin-left: 2%;
+    width: 17vw;
+    height: 7vh;
+    border: 1px solid ;
+    padding: 1%;
+}
+.table hr{
+    border: 1px solid #0199fe;
+    width: 70%;
+    margin-left: 20%;
+}
+.table h2{
+    color: #0199fe;
+}
